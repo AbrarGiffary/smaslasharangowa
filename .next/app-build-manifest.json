@@ -1,0 +1,76 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/dashboard/admin/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/admin/layout.css",
+      "static/chunks/app/dashboard/admin/layout.js"
+    ],
+    "/dashboard/admin/users/student/add/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/admin/users/student/add/page.css",
+      "static/chunks/app/dashboard/admin/users/student/add/page.js"
+    ],
+    "/dashboard/admin/class/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/admin/class/page.css",
+      "static/chunks/app/dashboard/admin/class/page.js"
+    ],
+    "/dashboard/admin/subjects/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/admin/subjects/page.css",
+      "static/chunks/app/dashboard/admin/subjects/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/splash/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/splash/page.css",
+      "static/chunks/app/splash/page.js"
+    ],
+    "/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/login/page.css",
+      "static/chunks/app/login/page.js"
+    ],
+    "/dashboard/admin/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/admin/page.css",
+      "static/chunks/app/dashboard/admin/page.js"
+    ],
+    "/dashboard/admin/users/student/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/admin/users/student/page.css",
+      "static/chunks/app/dashboard/admin/users/student/page.js"
+    ],
+    "/dashboard/admin/users/teacher/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/admin/users/teacher/page.css",
+      "static/chunks/app/dashboard/admin/users/teacher/page.js"
+    ],
+    "/dashboard/admin/users/teacher/add/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/admin/users/teacher/add/page.css",
+      "static/chunks/app/dashboard/admin/users/teacher/add/page.js"
+    ]
+  }
+}
