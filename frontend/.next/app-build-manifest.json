@@ -6,22 +6,23 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/dashboard/student/layout": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/dashboard/student/layout.css",
-      "static/chunks/app/dashboard/student/layout.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
-    "/dashboard/student/page": [
+    "/dashboard/admin/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/dashboard/student/page.css",
-      "static/chunks/app/dashboard/student/page.js"
+      "static/css/app/dashboard/admin/layout.css",
+      "static/chunks/app/dashboard/admin/layout.js"
     ],
-    "/_not-found/page": [
+    "/dashboard/admin/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/css/app/dashboard/admin/page.css",
+      "static/chunks/app/dashboard/admin/page.js"
     ]
   }
 }
