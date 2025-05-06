@@ -56,10 +56,6 @@ export default function ClassPage() {
                 <label>Teacher Name</label>
                 <input type="text" placeholder="Name" />
               </div>
-              <div className="form-group">
-                <label>ID</label>
-                <input type="text" />
-              </div>
             </div>
 
             <div className="form-row">
@@ -69,7 +65,7 @@ export default function ClassPage() {
               </div>
               <div className="form-group">
                 <label>School Year</label>
-                <input type="date" />
+                <input type="string" />
               </div>
             </div>
 

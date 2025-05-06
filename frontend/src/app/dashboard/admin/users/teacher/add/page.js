@@ -44,19 +44,18 @@ export default function AddTeacherPage() {
       <form className="teacher-form">
         <div className="form-row">
           <div className="form-group">
-            <label>First Name *</label>
+            <label>Name *</label>
             <input type="text" placeholder="e.g. Maria" />
           </div>
-          <div className="form-group">
-            <label>Last Name *</label>
-            <input type="text" placeholder="e.g. Historia" />
-          </div>
         </div>
-
         <div className="form-row">
-          <div className="form-group photo-upload">
-            <label>Photo *</label>
-            <div className="photo-box">Drag and drop or click here to select file</div>
+          <div className="form-group">
+            <label>User *</label>
+            <select>
+              <option>A</option>
+              <option>B</option>
+              <option>C</option>
+              </select>
           </div>
           <div className="form-group">
             <label>NIP *</label>
@@ -72,7 +71,7 @@ export default function AddTeacherPage() {
           </div>
         </div>
 
-        <div className="form-section-title">Login/Account Details</div>
+        {/* <div className="form-section-title">Login/Account Details</div>
 
         <div className="form-group full-width">
           <label>User Name *</label>
@@ -82,7 +81,7 @@ export default function AddTeacherPage() {
         <div className="form-group full-width">
           <label>Password *</label>
           <input type="password" placeholder="********" />
-        </div>
+        </div> */}
       </form>
     </div>
   )

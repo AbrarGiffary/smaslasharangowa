@@ -42,22 +42,24 @@ export default function AddStudent() {
 
         <div className="form-grid">
           <div className="form-group">
-            <label>First Name *</label>
-            <input type="text" placeholder="Enter first name" />
+            <label>Name *</label>
+            <input type="text" placeholder="Enter name" />
           </div>
           <div className="form-group">
-            <label>Last Name *</label>
-            <input type="text" placeholder="Enter last name" />
+
+            <div className="form-group">
+            <label>User *</label>
+            <select>
+              <option>A</option>
+              <option>B</option>
+              <option>C</option>
+              </select>
           </div>
-          <div className="form-group">
-            <label>Photo *</label>
-            <div className="photo-upload">Drag and drop or click here to select file</div>
           </div>
           <div className="form-group">
             <label>Date & Place of Birth *</label>
             <div className="dob-place">
               <input type="text" placeholder="3 Februari 1997" />
-              <input type="text" placeholder="Jakarta" />
             </div>
           </div>
           <div className="form-group">
@@ -66,7 +68,7 @@ export default function AddStudent() {
           </div>
           <div className="form-group address">
             <label>Address *</label>
-            <textarea rows="3" placeholder="Enter student address"></textarea>
+            <input type="text" placeholder="Enter student address"/>
           </div>
           <div className="form-group">
             <label>Class *</label>
@@ -79,7 +81,7 @@ export default function AddStudent() {
           </div>
         </div>
 
-        <h3 className="login-title">Login/Account Details</h3>
+        {/* <h3 className="login-title">Login/Account Details</h3>
         <div className="form-grid">
           <div className="form-group full">
             <label>User Name *</label>
@@ -89,7 +91,7 @@ export default function AddStudent() {
             <label>Password *</label>
             <input type="password" placeholder="********" />
           </div>
-        </div>
+        </div> */}
       </form>
     </div>
   )

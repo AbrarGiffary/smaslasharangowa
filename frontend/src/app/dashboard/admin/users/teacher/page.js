@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import '@/styles/teacher.css'; // Styling khusus untuk halaman teacher
+import '@/styles/teacher.css'; 
 import Link from 'next/link';
 
 export default function TeacherPage() {
